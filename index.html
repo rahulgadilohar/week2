@@ -3,28 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car wash</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Car-Wash</title>
 </head>
 <body>
-   <header></header>
-   <h1 id="heading">Book Your Car Wash!</h1> 
-   <div class="form">
-       <form>
-        Name: <input type="text">
-        Mob. <input type="number">
-        Email:<input type="email">
-        Preffer Date/Time: <input type="datetime-local">
-        
-        
-        Select Car: <select>
-            <option>Tata</option>
-            <option>Maruti</option>
-            <option>Audi</option>
-            <option>BMW</option>
-          </select>
-       
-
-       </form>
-   </div>
+    <h1 class="heading">Book Your Car Wash</h1>
+    <div class="container">
+        <form action="#">
+            <table class="form1">
+               <tr>
+                   <td>Name:</td>
+                   <td><input type="text" placeholder="type name here" id="input"></td>
+               </tr>
+               <tr>
+                <td>Email:</td>
+                <td><input type="email" placeholder="type email here" id="input"></td>
+            </tr>
+            <tr>
+                <td>No:</td>
+                <td><input type="number" placeholder="type number here" id="input"></td>
+            </tr>
+            <tr>
+                <td>Date/Time:</td>
+                <td><input type="datetime-local" id="input"></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="btn" value="Submit"></td>
+            </tr>
+            </table>
+        </form>
+    </div>
 </body>
 </html>
