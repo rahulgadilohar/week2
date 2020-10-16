@@ -3,15 +3,25 @@
     background-color: #e9ecef;
 }
 
+.para{
+    
+    margin-top: 2%;
+    font-family: 'Staatliches', cursive;
+    font-size: large;
+}
 
+#fpara{
+    font-family: inherit; 
+    font-size: large;
+}
 
 .formlocal{
-    /* background-color: red; */
+    
     border: 1px solid black;
     padding: 18px;
     margin-top: 5%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
     margin-bottom: 5%;
     font-family: 'Sriracha', cursive;
     font-size: larger;
@@ -19,137 +29,80 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* *{
-    margin: 0;
-    padding: 0;
-    }
-body{
-    background-color: #344955;
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #212529;
+    /* background-color: #f5f5f5; */
 }
-.heading{
+
+.text-muted {
+    color: white;
+    
+}
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
     text-align: center;
-    color: #fde7ec;
-    font-size: xxx-large;
-    font-family: system-ui;
-background-color: #232f34;
-border: 1px solid black;
- padding-top: 5px;
- margin-top: 5px;
- padding-bottom: 10px;
+    text-decoration: none;
+    border-radius: 50%;
+  } 
+#f1{
+    margin-left: 65%;
 }
 
-.container{
-    font-family: 'Francois One', sans-serif;
-    width: 601px;
-    height: 267px;
-    border: 3px solid black;
-   background-color:#4A6572;
-    margin: auto;
-    padding: 2px;
-    margin-top: 7%;
-   padding-bottom: 25px;
-   
-}
 
-.form1{
-    background-color: #42313126;
-    border: 1px solid #bbb1b5;
-    margin-top: 21px;
-    
-    margin-left: 15%;
-    padding: 54px;
-    font-family: cursive;
-    font-size: medium;
-  }
-
-  #input{
-      float: center;
-      width: auto;
-      /* margin: 1px 1px 1px 1px; */
-      /* padding: 5px 3px; */
-      /* padding-left: 19px;
-      margin: 2px;
-  } */
-
-
-/* .marquee{
-    
-    */
-    /* border: 1px solid black; */
-    /* color: blanchedalmond;
-    margin-top: 5px; */
 }
 
 
 
-  /* #btn{
-    background-color: #4CAF50; 
-  border: none;
-  color: white;
-  padding: 10px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  border-radius: 12px;
-  width: 210%
-  margin-left: 205px;
-  } */
 
-  /* .footer{
-      border: 1px solid red;
-      margin-top: 95px;
-      height: 50px; */
-  /* } */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
